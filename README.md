@@ -32,3 +32,20 @@ The main dataset we are using comes from the King County housing [dataset](https
 - long: House’s longitude coordinate
 - sqft_living15: Average size of living space for the closest 15 houses
 - sqft_lot15: Average size of lot for the - - closest 15 houses
+
+## 3. EDA
+
+We did **Univariate**, **Bivariate** and **Multivariate** on the data.
+* The categorical columns used were ``Condition`` and ``Grade``
+* The numerical columns include: ``sqft_living``, ``sqft_above``, ``yr_built``, ``yr_renovated``
+
+## 4. Modelling
+
+The base model used is a Log-Transformed model that gave an **$R^2$** value of 0.503
+We then proceeded to create some Multiple Regression models to try and improve our $R^2$ score
+
+## 5. Challenges
+
+Some of the challenges we faced were:
+* Skeweness
+* Fitting the model
